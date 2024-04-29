@@ -216,9 +216,9 @@ body {
 }
 
 .image-links img {
-    width: 2.0833333333333335vw;
-    min-width: 2.0vw;
+    width: 2.5833333333333335vw;
     height: auto;
+    min-width: 2.5vw;
     min-height: auto;
     filter: invert(100%);
 }
@@ -455,6 +455,11 @@ nav ul li:not(#mode-toggle) a {
     height: auto;
     text-align: center;
     color: #fff;
+}
+
+.skills-grid li img {
+    min-width: 1.5vw;
+    min-height: auto;
 }
 
 
