@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Kimani S. Griffin</title>
+    <link rel="stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script
+    <script src="js/myscript.js"></script>
+
+</head>
+<body>
+    <div id="background-image">
+    <img src="img/space.jpg" alt="Background Image">
+</div>
+
+
+    <div class="other-pages">
+         <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li> 
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-page">
+        <div class="resume-container">
+        <h2>CONTACT ME</h2>
+        </div>
+        <section id="contact" class="contact-section">
+            <div class="additional-info">
+                <p>Have an idea? </p>
+                <p>Let's make it true!</p>
+                <br>
+                <br>
+                <p> <img src="img/location.png" alt="Location Logo">Salt Lake City, UT</p>
+                <p><img src="img/email.png" alt="Email Logo">KimaniGriffin@hotmail.com</p>
+            </div>
+            <div class="contact-form">
+                <form id="contact-form" action="https://formspree.io/f/xwkgrznd" method="POST">
+                    <input type="hidden" name="_replyto" value="kimanigriffin@hotmail.com">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                        <div id="name-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <div id="email-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <div id="subject-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Message" rows="6" required></textarea>
+                        <div id="message-error" class="error-message"></div>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+
+    <footer>
+        <p>Made with <img src="img/heart.png" alt="Heart Emoji"> ©2024 - Kimani Griffin</p>
+    </footer>
+</body>
+</html>
+

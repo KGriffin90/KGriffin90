@@ -1,0 +1,643 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    animation: playVideo infinite;
+}
+
+.main-page {
+    position: absolute;
+    top: 50%;
+    left: 1.7006802721088434vw;
+    transform: translateY(-50%);
+}
+
+.error-message {
+    color: red;
+    font-style: italic;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7006802721088434vw;
+    text-align: center;
+}
+
+.resume ul {
+    margin-top: 1.2643868968570162vh;
+    padding-left: 1.7006802721088434vw;
+}
+
+.resume ul li {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.resume ul li::before {
+    content: "\2022";
+    color: #fff;
+    font-size: 3.096457706588611vh;
+    margin-right: 0.6944444444444444vw;
+}
+
+.resume a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 3.096457706588611vh;
+}
+
+.resume a:hover {
+    text-decoration: underline;
+}
+
+.resume .section {
+    margin-bottom: .3120849933598935vh;
+    text-align: center;
+}
+
+.section:nth-child(even) {
+    grid-column: 2;
+}
+
+.section:nth-child(odd) {
+    grid-column: 1;
+}
+
+.resume-title-container {
+    text-align: center;
+    padding: 1px;
+    color: #b9eaff
+}
+
+
+.resume-title-container a{
+    color: #69cdf8
+}
+
+.resume-container {
+    border: 0.14587892049598833vw solid #fff;
+    border-style: inset;
+    border-width: 0px;
+    color: #fff;
+    gap: 1.0416666666666667vw;
+    max-height: calc(100vh - 12.5vw);
+    overflow-y: auto;
+    margin-bottom: 1.096457706588611vh;
+    align-content: center;
+    text-align: center;
+}
+
+.resume-container .section {
+    padding-bottom: 6.385830826354445vh;
+}
+
+.resume-container .section strong {
+    text-align: left;
+    font-size: 3.006457706588611vh;
+    color: #00e1ff;
+    font-family: 'Academy Engraved LET';
+}
+
+
+.resume-container h2 {
+    text-decoration-color: #fff;
+    text-decoration-thickness: 0.14587892049598833vw;
+    font-family: 'Academy Engraved LET';
+    font-size: 5.057547587428065vh;
+    color: #fff;
+    margin-top: 3.096457706588611vh;
+    text-align: center;
+}
+
+.resume-container p {
+    font-size: 2.3669322709163345vh;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 1.2643868968570162vh;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    padding-right: .5vw;
+}
+
+
+.professional-experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 51%);
+    gap: 1.7006802721088434vw;
+    margin-right: 4.8006802721088434vw;
+}
+
+.professional-experience-grid p {
+    font-size: 2.346702080566622vh;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 1.2643868968570162vh;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.professional-experience-grid .section {
+    padding-bottom: 10.758964143426294vh;
+}
+
+.professional-experience-grid > :nth-child(odd) {
+    grid-column: 1;
+}
+
+.professional-experience-grid > :nth-child(even) {
+    grid-column: 2;
+}
+
+.job-details {
+    border: 2px solid #ccc;
+    padding-left: 1vw;
+}
+
+
+.job-details h2 {
+    border: 1px solid #ccc;
+    padding-left: 1vw;
+}
+
+
+.job-details h1,
+.job-details p {
+    display: inline; /* or display: inline-block; */
+    text-align: right;
+}
+
+
+.job-details ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.job-details ul li {
+    position: relative;
+    font-size: 2.4172642762284196vh;
+}
+
+.job-details ul li::before {
+    content: "\2022";
+    color: #fff;
+    font-size: 1.5172642762284196vh;
+    position: relative;
+    left: -.5vw;
+}
+
+
+.projects-heading {
+    color: #fff;
+    margin-bottom: 3.9787798408488064vh;
+}
+
+.projects-grid {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7006802721088434vw;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+}
+
+.image-links {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0.6944444444444444vw;
+}
+
+.image-links a {
+    margin: 0.6944444444444444vw;
+}
+
+.image-links img {
+    width: 2.0833333333333335vw;
+    min-width: 2.0vw;
+    height: auto;
+    min-height: auto;
+    filter: invert(100%);
+}
+
+.image-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 0.2188183807439825vw solid #ccc;
+    overflow: hidden;
+    margin: 0.6944444444444444vw;
+}
+.other-pages nav {
+    top: 0;
+    left: 50%;
+    position: fixed;
+    transform: translateX(-50%);
+    width: 80%;
+    z-index: 999;
+    text-align: center;
+}
+
+.other-pages nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.other-pages nav ul li {
+    display: inline-block;
+    margin-right: 1.7006802721088434vw;
+}
+
+.other-pages nav ul li:last-child {
+    margin-right: 0;
+}
+
+.other-pages nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 3.096457706588611vh;
+    padding: 0.2188183807439825vw;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-family: 'MADE Evolve', sans-serif;
+    font-size: 5.9760956175298805vh;
+    letter-spacing: 0.14587892049598833vw;
+    justify-content: left;
+}
+
+h2 {
+    text-align: center;
+    align-content: center;
+    color: #69cdf8;
+    font-family: 'Academy Engraved LET';
+    font-size: 5.3120849933598935vh;
+}
+
+h3 {
+    font-family: 'Academy Engraved LET';
+    font-size: 2.9216467463479416vh;
+    color: #00e1ff;
+    margin-top: 3.096457706588611vh;
+    margin-bottom: 3.096457706588611vh;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    font-family: 'Academy Engraved LET';
+    font-size: 5.3120849933598935vh;
+    padding-left: 14.587892049598834vw;
+}
+
+
+#background-image img{
+    position: absolute;
+    max-width: 133.33333333333334vw;
+    max-height: 159.05743740795288vh;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 1vh;
+    width: 100%;
+    height: 3.641434262948207vh;
+    color: #fff;
+    text-align: right;
+    text-justify: right;
+    font-size: 1.9920318725099602vh;
+    padding: 0.6944444444444444vw;
+    z-index: 999;
+    padding-top: 2.796457706588611vh;
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 1.7006802721088434vw;
+}
+
+footer img {
+    width: 2.0833333333333335vw;
+    min-width: 1.4vw;
+    height: auto;
+    min-height: auto;
+    vertical-align: middle;
+    padding: 0.10587892049598833vw;
+    margin-bottom: 0.40398406374502vh;
+}
+
+section {
+    box-sizing: border-box;
+}
+
+section ul {
+    list-style-type: disc;
+}
+
+section img {
+    width: 3.6469730123997084vw;
+    height: 6.6401062416998675vh;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1.2643868968570162vh;
+}
+
+nav ul li:not(#mode-toggle) a {
+    font-family: 'Lucida Grande', sans-serif;
+    font-size: 1.9920318725099602vh;
+}
+
+.main-page nav {
+    text-align: center;
+    display: flex;
+    justify-content: left;
+}
+
+.main-page nav ul {
+    margin: 0;
+    padding: 0.14587892049598833vw;
+    display: flex;
+    list-style: none;
+}
+
+.main-page nav ul li {
+    font-family: 'Lucida Grande', sans-serif;
+    padding: 0.14587892049598833vw;
+    margin-right: 1.2006802721088434vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main-page nav ul li:last-child {
+    margin-right: 7.293946024799417vw;
+}
+
+.main-page nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 3.096457706588611vh;
+    padding: 0.2188183807439825vw;
+}
+
+.main-page nav ul li a:hover {
+    transform: scale(1.2);
+    color: #69cdf8;
+}
+
+.middle-sections {
+    display: flex;
+    color: #fff;
+    gap: 1.0416666666666667vw;
+    max-height: calc(100vh - 12.5vw);
+    overflow-y: auto;
+    margin-bottom: 1.096457706588611vh;
+}
+
+
+#about {
+    text-align: justify;
+    width: calc(50% - 1.7006802721088434vw);
+    height: auto;
+    overflow: auto;
+    padding-right: 3.6469730123997084vw;
+    color: #fff;
+    font-size: 2.3904382470119523vh;
+}
+
+#skills {
+    margin-left: 1.7006802721088434vw;
+    text-align: center;
+    width: calc(50% - 1.7006802721088434vw);
+    height: auto;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.3472222222222222vw;
+    align-items: center;
+}
+
+.skills-grid li {
+    display: flex;
+    align-items: center;
+    padding-top: 0.6631299734748011vh;
+    padding-bottom: 0.6631299734748011vh;
+    padding-left: 0.3472222222222222vw;
+    padding-right: 0.3472222222222222vw;
+    list-style: none;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: #fff;
+}
+
+
+#contact {
+    display: flex;
+    position: relative;
+    left: 10%;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    max-width: auto;
+}
+
+
+.contact-form {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 0.6944444444444444vw; /* Add gap between grid columns */
+    position: relative;
+    max-width: auto;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    flex-direction: row; /* Stack the content vertically */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 250%;
+    padding-top: 1.9893899204244032vh;
+    padding-bottom: 1.9893899204244032vh;
+    padding-left: 1.0416666666666667vw;
+    padding-right: 1.0416666666666667vw;
+    margin-bottom: 0.6944444444444444vw;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Set font-family for input fields */
+    font-size: 16px; /* Set font size for input fields */
+}
+
+.form-group {
+    margin-bottom: 3.096457706588611vh;
+}
+
+.form-group:nth-child(1),
+.form-group:nth-child(2) {
+    grid-column: span 1; /* Each name and email field spans one column */
+}
+
+.form-group:nth-child(3) {
+    grid-column: span 2; /* Span both columns for the subject field */
+}
+
+.form-group:nth-child(4) {
+    grid-column: span 2; /* Span both columns for the message field */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 1.0940919037199124vw;
+    margin-bottom: 0.6944444444444444vw;
+    border: 2.1248339973439574vh solid #ccc;
+    border-radius: 0.3472222222222222vw;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 16px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+
+button[type="submit"] {
+    position: fixed;
+    background-color: rgb(213, 213, 213);
+    color: rgb(0, 0, 0);
+    padding: .3006802721088434vw;
+    padding-bottom: 3vh;
+    border: none;
+    border-radius: 0.1472222222222222vw;
+    cursor: pointer;
+    font-size: 2.1390374331550803vh;
+    height: 3.5vh;
+    width: 9.5vw;
+}
+
+button[type="submit"]:hover {
+    background-color: #69cdf8;
+}
+
+.button-container {
+    text-align: right;
+}
+
+
+.button-container button[type="submit"]{
+    display: inline-block;
+}
+
+.additional-info {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.additional-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lucida Grande', sans-serif;
+}
+
+.additional-info p img {
+    margin-right: 0.6944444444444444vw;
+    padding-left: 0;
+    margin-left: 0;
+    filter: brightness(100%);
+    min-width: 1.3vw;
+    height: auto;
+}
+
+.additional-info p:first-child {
+    font-size: 36px;
+    font-weight: 700;
+    font-style: bold;
+    text-align: left;
+    margin-bottom: 0.6944444444444444vw;
+}
+
+.additional-info p:nth-child(2) {
+    font-size: 18px;
+    text-align: center;
+}
+
+@media all and (min-width: 700) {
+
+    .contact-section {
+        justify-content: column;
+        align-items: center;
+    }
+
+    .contact-form,
+    .additional-info {
+        max-width: 80%;
+    }
+
+}
+
+
+@font-face {
+    font-family: 'Academy Engraved LET';
+    src: url(AcademyEngraved.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'MADE Evolve';
+    src: url(SansMediumEVO.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lucida Grande';
+    src: url(LucidaGrande.ttc) format('truetype');
+}
+
+
