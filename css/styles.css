@@ -8,7 +8,7 @@ body {
     position: absolute;
     top: 50%;
     left: 1.7006802721088434vw;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
 }
 
 .error-message {
