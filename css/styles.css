@@ -125,6 +125,8 @@ body {
 .professional-experience-grid {
     display: grid;
     grid-template-columns: repeat(2, 51%);
+    border: 1vw;
+    border-color: #fff;
     gap: 1.7006802721088434vw;
     margin-right: 4.8006802721088434vw;
 }
