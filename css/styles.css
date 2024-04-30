@@ -36,7 +36,7 @@ body {
 .resume ul li::before {
     content: "\2022";
     color: #fff;
-    font-size: 3.096457706588611vh;
+    font-size: 4.096457706588611vh;
     margin-right: 0.6944444444444444vw;
 }
 
