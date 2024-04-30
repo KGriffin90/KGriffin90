@@ -69,11 +69,9 @@ body {
     text-align: center;
     color: #b9eaff;
 }
-.resume-title-container h2 {
-    padding-bottom: -2vw;
-}
 .resume-title-container a{
     color: #69cdf8;
+    padding-bottom: 3vh;
 }
 
 .resume-container {
