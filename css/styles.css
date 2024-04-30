@@ -68,7 +68,13 @@ body {
 .resume-title-container {
     text-align: center;
     color: #b9eaff;
+    height: 3vh;
 }
+
+.resume-title-container h2 {
+    padding-botom: -2vh;
+}
+
 .resume-title-container a{
     color: #69cdf8;
     padding-bottom: 3vh;
