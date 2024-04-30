@@ -36,7 +36,7 @@ body {
 .resume ul li::before {
     content: "\2022";
     color: #fff;
-    font-size: 4.096457706588611vh;
+    font-size: 3.096457706588611vh;
     margin-right: 0.6944444444444444vw;
 }
 
@@ -176,7 +176,7 @@ body {
     position: relative;
     font-size: 2.0172642762284196vh;
     text-align: justify;
-    padding-right: 10.555vw;
+    padding-right: 4.555vw;
 }
 
 .job-details ul li::before {
