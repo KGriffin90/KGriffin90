@@ -630,17 +630,17 @@ button[type="submit"]:hover {
 
 @font-face {
     font-family: 'Academy Engraved LET';
-    src: url(font/AcademyEngraved.ttf) format('truetype');
+    src: url(AcademyEngraved.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'MADE Evolve';
-    src: url(font/SansMediumEVO.otf) format('truetype');
+    src: url(SansMediumEVO.otf) format('truetype');
 }
 
 @font-face {
     font-family: 'Lucida Grande';
-    src: url(font/LucidaGrande.ttc) format('truetype');
+    src: url(LucidaGrande.ttc) format('truetype');
 }
 
 
