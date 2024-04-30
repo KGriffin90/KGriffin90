@@ -174,9 +174,9 @@ body {
 
 .job-details ul li {
     position: relative;
-    font-size: 2.0172642762284196vh;
+    font-size: 3.0172642762284196vh;
     text-align: justify;
-    padding-right: 1.555vw;
+    padding-right: .555vw;
 }
 
 .job-details ul li::before {
