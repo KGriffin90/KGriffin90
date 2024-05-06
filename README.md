@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-[![LinkedIn](linkedin-shield)][(https://www.linkedin.com/in/kimani-griffin-532b41172/)]
+[![LinkedIn][linkedin-shield][https://www.linkedin.com/in/kimani-griffin-532b41172/]
 
 <!-- PROJECT LOGO -->
 <br />
