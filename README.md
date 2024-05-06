@@ -89,8 +89,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
 Project Link: [https://github.com/kgriffin90/KGriffin90](https://github.com/kgriffin90/KGriffin90)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
