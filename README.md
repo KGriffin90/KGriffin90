@@ -1,6 +1,6 @@
 #Kimani Griffin's Portfolio Website
 
-![Website Preview](assets/img/testimonials/Headshot.jpg)
+![Website Preview]()
 
 ## About Me
 
