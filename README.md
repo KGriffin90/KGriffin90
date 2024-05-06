@@ -51,8 +51,6 @@ My name is Kimani Griffin. I am a software developer based in Salt Lake City, UT
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This project represents a site dedicated to my skillset and networking with others in the industry.
 
 
@@ -61,8 +59,6 @@ This project represents a site dedicated to my skillset and networking with othe
 
 ### Built With
 
-* [![JavaScript][JavaScript.com]][JavaScript-url]
-* [![CSS][JQuery.com]][CSS-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
