@@ -19,7 +19,7 @@ Driven by a passion for technology and a competitive spirit, I offer a unique bl
 
 ## Resume
 
-[Download Resume](assets/pdf/Kimani Griffin Resume.pdf)
+![Download Resume][(assets/pdf/Kimani Griffin Resume.pdf)]
 
 ## Projects
 
