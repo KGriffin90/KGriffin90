@@ -16,7 +16,7 @@
   </a>
   <p align="center">
 My name is Kimani Griffin. I am a software developer based in Salt Lake City, UT.<br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://kgriffin90.github.io/KGriffin90"><strong>Explore the site!»</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
