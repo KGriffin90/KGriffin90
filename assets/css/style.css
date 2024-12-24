@@ -15,6 +15,13 @@ a:hover {
   color: #8ec4dd;
   text-decoration: none;
 }
+.img-fluid-skill-img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
 
 h1,
 h2,
