@@ -18,9 +18,6 @@ a:hover {
 .img-fluid-skill-img {
     width: 20px;
     height: 20px;
-    object-fit: contain;
-    display: block;
-    margin: auto;
 }
 
 h1,
