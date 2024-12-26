@@ -16,6 +16,11 @@ a:hover {
   text-decoration: none;
 }
 
+.img-fluid-skill-img {
+    width:55%;
+    height: 55%;
+}
+
 h1,
 h2,
 h3,
